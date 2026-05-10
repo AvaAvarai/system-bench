@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #0f0f10;
+    color: #e6e6e6;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .header p {
+    opacity: 0.7;
+    margin-top: 8px;
+  }
+  
+  .feed {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #2a2a2a;
+    padding: 16px;
+    border-radius: 10px;
+    background: #151516;
+  }
+  
+  .meta {
+    font-size: 12px;
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-size: 14px;
+    line-height: 1.6;
+  }
